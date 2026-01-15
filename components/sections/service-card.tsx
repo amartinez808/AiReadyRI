@@ -29,7 +29,7 @@ export function ServiceCard({
       <Card className="h-full">
         <CardHeader>
           {icon && (
-            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary shadow-[0_0_20px_rgba(0,229,255,0.1)]">
               {icon}
             </div>
           )}

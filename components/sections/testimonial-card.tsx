@@ -24,7 +24,7 @@ export function TestimonialCard({ testimonial, index = 0 }: TestimonialCardProps
           <p className="mt-4 text-lg leading-relaxed text-foreground">
             {testimonial.quote}
           </p>
-          <div className="mt-6 border-t border-border pt-6">
+          <div className="mt-6 border-t border-white/8 pt-6">
             <div className="font-semibold text-foreground">{testimonial.author}</div>
             <div className="text-sm text-muted-foreground">
               {testimonial.role} at {testimonial.company}

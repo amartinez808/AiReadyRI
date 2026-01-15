@@ -26,12 +26,17 @@ export function Hero({
   trustLine,
 }: HeroProps) {
   return (
-    <section className="container mx-auto px-6 pt-32 pb-20 md:pt-40 md:pb-32">
+    <section className="relative container mx-auto px-6 pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden">
+      {/* Ambient glow behind headline */}
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+        <div className="w-[500px] h-[250px] bg-primary/8 blur-[120px] rounded-full" />
+      </div>
+
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="mx-auto max-w-4xl text-center"
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="relative mx-auto max-w-4xl text-center"
       >
         <h1 className="text-foreground">{headline}</h1>
         <p className="mx-auto mt-6 max-w-2xl">{subheading}</p>

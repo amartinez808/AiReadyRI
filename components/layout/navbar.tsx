@@ -17,7 +17,7 @@ export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-lg">
+    <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/8 bg-background/80 backdrop-blur-lg">
       <div className="container mx-auto px-6">
         <div className="flex h-20 items-center justify-between">
           <Link href="/" className="text-2xl font-bold tracking-tight">
@@ -30,7 +30,7 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+                className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
               >
                 {link.label}
               </Link>
@@ -62,7 +62,7 @@ export function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="border-t border-border md:hidden"
+            className="border-t border-white/8 md:hidden"
           >
             <div className="container mx-auto px-6 py-6">
               <div className="flex flex-col gap-4">
@@ -70,7 +70,7 @@ export function Navbar() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className="text-lg font-medium text-muted-foreground transition-colors hover:text-foreground"
+                    className="text-lg font-medium text-muted-foreground transition-colors hover:text-primary"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {link.label}

@@ -24,7 +24,7 @@ export function CTASection({
   secondaryCTA,
 }: CTASectionProps) {
   return (
-    <section className="border-y border-border bg-card">
+    <section className="border-y border-white/8 bg-card">
       <div className="container mx-auto px-6 py-20 md:py-32">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

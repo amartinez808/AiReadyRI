@@ -20,7 +20,7 @@ export function CaseStudyCard({ caseStudy, index = 0 }: CaseStudyCardProps) {
       transition={{ duration: 0.5, delay: index * 0.1 }}
     >
       <Link href={`/work/${caseStudy.slug}`}>
-        <Card className="group h-full overflow-hidden transition-all hover:border-primary">
+        <Card className="group h-full overflow-hidden transition-all hover:border-primary/50 hover:shadow-[0_0_30px_rgba(0,229,255,0.1)]">
           <CardContent className="p-8">
             <div className="mb-4 flex items-center gap-2 text-sm text-muted-foreground">
               <span>{caseStudy.client}</span>
@@ -36,7 +36,7 @@ export function CaseStudyCard({ caseStudy, index = 0 }: CaseStudyCardProps) {
               {caseStudy.description}
             </p>
 
-            <div className="grid grid-cols-2 gap-4 border-t border-border pt-6">
+            <div className="grid grid-cols-2 gap-4 border-t border-white/8 pt-6">
               {caseStudy.outcomes.slice(0, 2).map((outcome) => (
                 <div key={outcome.metric}>
                   <div className="text-2xl font-bold text-primary">
