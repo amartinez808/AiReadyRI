@@ -1,0 +1,5 @@
+# robots.txt for SIGNAL
+User-agent: *
+Allow: /
+
+Sitemap: https://signal.agency/sitemap.xml
