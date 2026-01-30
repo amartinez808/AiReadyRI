@@ -15,23 +15,23 @@ const michroma = Michroma({
 });
 
 export const metadata: Metadata = {
-  title: "SIGNAL - Digital Systems That Convert",
-  description: "High-performance digital systems built for conversion. Web development, growth systems, and automation for modern businesses.",
-  keywords: ["digital agency", "web development", "growth marketing", "conversion optimization", "automation"],
-  authors: [{ name: "SIGNAL" }],
-  creator: "SIGNAL",
+  title: "AI Ready Rhode Island | AI Consulting & Automation for Organizations",
+  description: "AI consulting, automation workflows, and training for Rhode Island nonprofits, schools, businesses, and government. Strategy, implementation, and hands-on support.",
+  keywords: ["AI Ready Rhode Island", "AI consulting", "AI automation", "Rhode Island", "nonprofits", "schools", "small business", "AI training", "workflow automation"],
+  authors: [{ name: "AI Ready Rhode Island" }],
+  creator: "AI Ready Rhode Island",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://signal.agency",
-    title: "SIGNAL - Digital Systems That Convert",
-    description: "High-performance digital systems built for conversion.",
-    siteName: "SIGNAL",
+    url: "https://aireadyri.com",
+    title: "AI Ready Rhode Island | AI Consulting & Automation",
+    description: "AI consulting, automation workflows, and training for Rhode Island organizations.",
+    siteName: "AI Ready Rhode Island",
   },
   twitter: {
     card: "summary_large_image",
-    title: "SIGNAL - Digital Systems That Convert",
-    description: "High-performance digital systems built for conversion.",
+    title: "AI Ready Rhode Island | AI Consulting & Automation",
+    description: "AI consulting, automation workflows, and training for Rhode Island organizations.",
   },
 };
 

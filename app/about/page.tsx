@@ -7,8 +7,8 @@ import { aboutContent } from "@/content/about";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About - SIGNAL",
-  description: "We build digital systems that convert. Meet the team behind SIGNAL.",
+  title: "About - AI Ready Rhode Island",
+  description: "Your AI consulting partner in Rhode Island. Learn about our mission to help organizations leverage AI.",
 };
 
 export default function AboutPage() {
@@ -102,9 +102,9 @@ export default function AboutPage() {
 
       <CTASection
         headline="Let's Work Together"
-        description="If you're serious about growth and ready to invest in systems that convert, let's talk."
+        description="Ready to bring AI into your organization? Let's talk about how we can help."
         primaryCTA={{
-          text: "Book a Strategy Call",
+          text: "Book a Consultation",
           href: "/contact",
         }}
         secondaryCTA={{

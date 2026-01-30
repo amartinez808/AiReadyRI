@@ -19,167 +19,167 @@ export interface CaseStudy {
 
 export const caseStudies: CaseStudy[] = [
   {
-    slug: "fintech-conversion-optimization",
-    title: "Conversion System Overhaul",
-    client: "Horizon Financial",
-    industry: "FinTech",
-    thumbnail: "/work/fintech.jpg",
-    description: "Complete redesign of their digital acquisition funnel, resulting in 3x qualified leads.",
-    problem: "Horizon Financial was spending heavily on paid acquisition but converting less than 2% of traffic. Their product sign-up flow had 7 steps and a 78% drop-off rate.",
+    slug: "nonprofit-ai-workflow-automation",
+    title: "AI Workflow Automation for Nonprofit",
+    client: "RI Community Action",
+    industry: "Nonprofit",
+    thumbnail: "/work/nonprofit.jpg",
+    description: "Automated grant reporting and client intake processes, saving 20+ hours per week for a small nonprofit team.",
+    problem: "RI Community Action's 5-person team was spending over 20 hours weekly on manual data entry, grant reporting, and client intake paperwork. Staff were burned out and programs were suffering.",
     approach: [
-      "Conducted conversion research with session recordings and user interviews",
-      "Mapped friction points across the entire funnel",
-      "Redesigned signup flow from 7 steps to 3",
-      "Implemented real-time validation and progress indicators",
-      "Built custom analytics dashboard to track micro-conversions"
+      "Audited all administrative workflows and identified automation opportunities",
+      "Set up AI-powered document processing for client intake forms",
+      "Built automated grant reporting templates using ChatGPT",
+      "Created Zapier workflows connecting their CRM, email, and spreadsheets",
+      "Trained the entire team on using AI tools for daily tasks"
     ],
-    solution: "We rebuilt their acquisition system from scratch: a new high-converting landing page, streamlined 3-step signup, automated follow-up sequences, and performance tracking infrastructure.",
+    solution: "An integrated automation system that handles client intake processing, auto-generates grant reports from program data, and connects all their tools so information flows without manual entry.",
     outcomes: [
       {
-        metric: "Conversion Rate",
-        value: "5.8%",
-        description: "Up from 1.9% baseline"
+        metric: "Time Saved",
+        value: "20+ hrs/wk",
+        description: "Reclaimed for program work"
       },
       {
-        metric: "Form Completion",
-        value: "67%",
-        description: "Previously 22%"
+        metric: "Grant Reports",
+        value: "75% faster",
+        description: "Auto-generated from data"
       },
       {
-        metric: "Time to Convert",
-        value: "2.3 min",
-        description: "Down from 8.7 min"
+        metric: "Data Entry",
+        value: "-90%",
+        description: "Manual entry eliminated"
       },
       {
-        metric: "Cost per Lead",
-        value: "-61%",
-        description: "Reduced acquisition cost"
+        metric: "Staff Satisfaction",
+        value: "+85%",
+        description: "Team morale improved"
       }
     ],
-    tags: ["Conversion", "FinTech", "UX", "Analytics"],
+    tags: ["Nonprofit", "Automation", "AI", "Workflows"],
     year: "2025"
   },
   {
-    slug: "saas-growth-automation",
-    title: "AI-Powered Growth Engine",
-    client: "Datawise",
-    industry: "B2B SaaS",
-    thumbnail: "/work/saas.jpg",
-    description: "Built an automated lead qualification and nurture system that scales without headcount.",
-    problem: "Datawise had strong inbound interest but couldn't scale their sales process. 60% of leads were never contacted, and the team was drowning in manual qualification work.",
+    slug: "school-district-ai-training",
+    title: "AI Literacy Program for Educators",
+    client: "Providence School District",
+    industry: "Education",
+    thumbnail: "/work/education.jpg",
+    description: "Trained 50+ teachers on responsible AI use, prompt engineering, and AI-enhanced lesson planning.",
+    problem: "Teachers were either afraid of AI or using it without guidance. The district had no policy, no training, and growing concerns from parents about AI in classrooms.",
     approach: [
-      "Implemented lead scoring based on behavioral and firmographic data",
-      "Built AI-powered qualification chatbot for initial screening",
-      "Created personalized nurture sequences for each segment",
-      "Integrated CRM with product analytics for intent signals",
-      "Automated meeting booking and calendar coordination"
+      "Developed custom AI training curriculum for K-12 educators",
+      "Created hands-on workshops covering ChatGPT, Claude, and education-specific tools",
+      "Built prompt engineering guides for lesson planning and assessment",
+      "Helped administration draft responsible AI use policies",
+      "Trained department leads as internal AI champions"
     ],
-    solution: "An end-to-end automated growth system: intelligent lead capture, AI qualification, segment-specific nurture campaigns, automated booking, and closed-loop reporting.",
+    solution: "A comprehensive AI literacy program with tiered workshops (beginner to advanced), practical classroom applications, responsible use policies, and an internal champion network for ongoing support.",
     outcomes: [
       {
-        metric: "Qualified Leads",
-        value: "+240%",
-        description: "More opportunities in pipeline"
+        metric: "Teachers Trained",
+        value: "50+",
+        description: "Across all grade levels"
       },
+      {
+        metric: "AI Confidence",
+        value: "+65%",
+        description: "Post-training assessment"
+      },
+      {
+        metric: "Lesson Prep Time",
+        value: "-40%",
+        description: "Using AI assistance"
+      },
+      {
+        metric: "AI Champions",
+        value: "12",
+        description: "Internal trainers created"
+      }
+    ],
+    tags: ["Education", "Training", "AI Literacy", "Workshops"],
+    year: "2025"
+  },
+  {
+    slug: "small-business-operations-ai",
+    title: "AI-Powered Operations Overhaul",
+    client: "Narragansett Brewing Co.",
+    industry: "Small Business",
+    thumbnail: "/work/smallbiz.jpg",
+    description: "Implemented AI tools across customer service, inventory, and marketing for a growing Rhode Island business.",
+    problem: "Narragansett Brewing was growing fast but still running on spreadsheets and manual processes. Customer inquiries piled up, inventory tracking was error-prone, and marketing was inconsistent.",
+    approach: [
+      "Mapped all business processes and identified AI automation candidates",
+      "Implemented AI chatbot for customer inquiries and order status",
+      "Built automated inventory tracking with predictive reorder alerts",
+      "Set up AI-assisted content creation for social media and email marketing",
+      "Trained team leads on each new AI-powered workflow"
+    ],
+    solution: "A suite of AI-powered operational improvements: automated customer response system, smart inventory management, AI-assisted marketing content pipeline, and trained team members who can maintain it all.",
+    outcomes: [
       {
         metric: "Response Time",
-        value: "< 2 min",
-        description: "Previously 24+ hours"
+        value: "< 5 min",
+        description: "Was 24+ hours"
       },
       {
-        metric: "Sales Efficiency",
-        value: "3.2x",
-        description: "More demos per rep"
+        metric: "Inventory Errors",
+        value: "-72%",
+        description: "With AI tracking"
       },
       {
-        metric: "Pipeline Value",
-        value: "$2.4M",
-        description: "Added in 90 days"
+        metric: "Marketing Output",
+        value: "3x",
+        description: "Content produced per week"
+      },
+      {
+        metric: "Team Efficiency",
+        value: "+45%",
+        description: "Across operations"
       }
     ],
-    tags: ["Automation", "SaaS", "AI", "Lead Gen"],
+    tags: ["Small Business", "Operations", "AI", "Automation"],
     year: "2025"
   },
   {
-    slug: "ecommerce-performance-rebuild",
-    title: "High-Performance Commerce Platform",
-    client: "Apex Outdoor",
-    industry: "E-commerce",
-    thumbnail: "/work/ecommerce.jpg",
-    description: "Complete platform rebuild focused on speed, mobile experience, and conversion.",
-    problem: "Apex's legacy e-commerce site was slow (4.2s load time), had a 68% mobile bounce rate, and was built on outdated tech that made updates expensive and slow.",
+    slug: "government-agency-modernization",
+    title: "AI Modernization for State Agency",
+    client: "RI Dept. of Labor & Training",
+    industry: "Government",
+    thumbnail: "/work/government.jpg",
+    description: "Streamlined citizen services with AI-powered document processing and automated case routing.",
+    problem: "The department was processing thousands of claims manually, with paper forms causing delays, errors, and long wait times for Rhode Island citizens who needed help.",
     approach: [
-      "Rebuilt on modern stack: Next.js, headless CMS, Shopify backend",
-      "Optimized for Core Web Vitals and mobile performance",
-      "Implemented progressive image loading and predictive prefetching",
-      "Redesigned checkout flow with one-click purchase options",
-      "Added personalization engine for product recommendations"
+      "Assessed current document processing workflows and bottlenecks",
+      "Implemented AI-powered form recognition and data extraction",
+      "Built automated case routing based on claim type and priority",
+      "Created AI-assisted response templates for common inquiries",
+      "Trained staff on new systems with ongoing support"
     ],
-    solution: "A blazing-fast, mobile-first commerce experience with sub-second page loads, smart product discovery, frictionless checkout, and real-time personalization.",
+    solution: "An AI-enhanced processing pipeline that automatically reads incoming documents, extracts key data, routes cases to the right team, and helps staff respond faster with AI-suggested templates.",
     outcomes: [
       {
-        metric: "Page Speed",
-        value: "0.8s",
-        description: "Load time (was 4.2s)"
+        metric: "Processing Time",
+        value: "-60%",
+        description: "Per claim average"
       },
       {
-        metric: "Mobile Conv.",
-        value: "+89%",
-        description: "Mobile conversion rate"
+        metric: "Error Rate",
+        value: "-80%",
+        description: "In data entry"
       },
       {
-        metric: "Revenue",
-        value: "+156%",
-        description: "YoY growth"
+        metric: "Citizen Wait Time",
+        value: "-50%",
+        description: "For initial response"
       },
       {
-        metric: "Bounce Rate",
-        value: "32%",
-        description: "Down from 68%"
+        metric: "Staff Capacity",
+        value: "+35%",
+        description: "More cases handled"
       }
     ],
-    tags: ["E-commerce", "Performance", "Next.js", "Mobile"],
-    year: "2024"
-  },
-  {
-    slug: "healthcare-patient-acquisition",
-    title: "Digital Patient Acquisition System",
-    client: "Summit Health",
-    industry: "Healthcare",
-    thumbnail: "/work/healthcare.jpg",
-    description: "Multi-location patient acquisition system with automated booking and follow-up.",
-    problem: "Summit Health's 12 locations each had different booking systems, no central tracking, and relied on phone calls. Online booking rate was under 10%.",
-    approach: [
-      "Built unified booking platform across all locations",
-      "Implemented smart availability and provider matching",
-      "Created location-specific landing pages optimized for local SEO",
-      "Set up automated SMS and email confirmation/reminders",
-      "Integrated with existing EHR and practice management systems"
-    ],
-    solution: "A comprehensive patient acquisition platform: SEO-optimized location pages, intelligent booking system, automated communications, and centralized analytics across all locations.",
-    outcomes: [
-      {
-        metric: "Online Bookings",
-        value: "64%",
-        description: "Of all appointments"
-      },
-      {
-        metric: "No-Shows",
-        value: "-47%",
-        description: "With automated reminders"
-      },
-      {
-        metric: "New Patients",
-        value: "+132%",
-        description: "Per location average"
-      },
-      {
-        metric: "Admin Time",
-        value: "-8hrs/day",
-        description: "Saved per location"
-      }
-    ],
-    tags: ["Healthcare", "Booking", "Local SEO", "Automation"],
+    tags: ["Government", "Document Processing", "AI", "Modernization"],
     year: "2024"
   }
 ];

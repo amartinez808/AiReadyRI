@@ -5,27 +5,27 @@ export interface FAQItem {
 
 export const faqs: FAQItem[] = [
   {
-    question: "How is SIGNAL different from other agencies?",
-    answer: "We're engineers and growth operators, not a traditional agency. Every decision is driven by conversion data, not subjective design preferences. We build systems that compound, not one-off campaigns. And we only take on projects where we're confident we can move the metrics that matter."
+    question: "How is AI Ready Rhode Island different from other AI consultants?",
+    answer: "We're Rhode Island-based and focused specifically on helping local nonprofits, schools, businesses, and government agencies. We don't sell software or push expensive platforms—we teach your team to use practical, accessible AI tools like ChatGPT and Claude, and we build automation workflows tailored to your specific operations."
   },
   {
-    question: "What's your typical project timeline?",
-    answer: "Depends on scope. A focused Sprint is 2 weeks. A full website Build typically takes 4-6 weeks from kickoff to launch. Retainer work is ongoing with monthly cycles. We're fast because we eliminate approval theater and focus on outcomes, not process."
+    question: "Do we need technical experience to work with you?",
+    answer: "Not at all. Most of our clients are starting from scratch with AI. Our training is designed for complete beginners and meets people where they are. We focus on practical, hands-on learning—not theory or jargon."
   },
   {
-    question: "Do you work with startups or only established companies?",
-    answer: "We work with both, but the fit matters more than company stage. Best fits: you have product-market fit (or close to it), you're spending money on acquisition, and you need conversion infrastructure to scale efficiently. If you're pre-revenue or still figuring out positioning, we're probably not the right fit yet."
+    question: "What types of organizations do you work with?",
+    answer: "We work with nonprofits, K-12 schools, small businesses, government agencies, and community organizations across Rhode Island. If you're a Rhode Island organization looking to leverage AI, we'd love to talk."
   },
   {
-    question: "What if I just need a simple website?",
-    answer: "If 'simple' means a 5-page brochure site with no conversion goals, we're not the right partner. Our work is conversion-focused. But if 'simple' means clean, fast, and optimized to turn visitors into customers—then yes, we can help."
+    question: "What does a typical engagement look like?",
+    answer: "It starts with a free consultation where we learn about your organization and identify opportunities. From there, we might do an AI readiness assessment, implement specific automation workflows, run training workshops, or all of the above. Every engagement is customized to your needs and budget."
   },
   {
-    question: "Do you offer payment plans?",
-    answer: "For Build projects, we typically structure payments as 50% upfront, 50% at launch. Retainers are month-to-month with a 3-month minimum commitment. We're flexible with the right partners."
+    question: "How much does it cost?",
+    answer: "It depends on the scope. We offer everything from focused assessments to comprehensive multi-week engagements. We're committed to making AI accessible, and we work with organizations of all budget levels. Contact us for a free consultation and we'll provide a clear proposal."
   },
   {
-    question: "What happens after the project launches?",
-    answer: "All Build projects include 2 weeks of post-launch support for bugs and adjustments. After that, many clients move to a Retainer for ongoing optimization, A/B testing, and continuous improvement. We also offer one-time Sprint projects for tactical work."
+    question: "What happens after the engagement ends?",
+    answer: "All engagements include documentation and training so your team can maintain what we've built. We also offer ongoing partnership options for organizations that want continued support, optimization, and new workflow development. And we're always just an email or phone call away."
   }
 ];

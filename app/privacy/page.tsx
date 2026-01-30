@@ -3,8 +3,8 @@ import { Footer } from "@/components/layout/footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - SIGNAL",
-  description: "Privacy policy for SIGNAL agency.",
+  title: "Privacy Policy - AI Ready Rhode Island",
+  description: "Privacy policy for AI Ready Rhode Island agency.",
 };
 
 export default function PrivacyPage() {
@@ -73,8 +73,8 @@ export default function PrivacyPage() {
               <h2 className="text-2xl font-semibold text-foreground">7. Contact Us</h2>
               <p>
                 If you have any questions about this Privacy Policy, please contact us at{" "}
-                <a href="mailto:privacy@signal.agency" className="text-primary hover:underline">
-                  privacy@signal.agency
+                <a href="mailto:josh@aireadyri.com" className="text-primary hover:underline">
+                  josh@aireadyri.com
                 </a>
                 .
               </p>

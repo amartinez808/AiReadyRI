@@ -24,12 +24,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!caseStudy) {
     return {
-      title: "Case Study Not Found - SIGNAL",
+      title: "Case Study Not Found - AI Ready Rhode Island",
     };
   }
 
   return {
-    title: `${caseStudy.title} - SIGNAL`,
+    title: `${caseStudy.title} - AI Ready Rhode Island`,
     description: caseStudy.description,
   };
 }
@@ -152,7 +152,7 @@ export default async function CaseStudyPage({ params }: PageProps) {
           </h3>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button asChild size="lg">
-              <Link href="/contact">Book a Strategy Call</Link>
+              <Link href="/contact">Book a Consultation</Link>
             </Button>
             <Button asChild variant="outline" size="lg">
               <Link href="/work">View More Work</Link>

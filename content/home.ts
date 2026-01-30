@@ -1,27 +1,27 @@
 export const homeContent = {
   hero: {
-    headline: "Digital Systems That Convert",
-    subheading: "We build high-performance websites, growth systems, and automation infrastructure for companies that need results, not excuses.",
-    primaryCTA: "Book a Strategy Call",
+    headline: "AI Strategy. Automation. Training.",
+    subheading: "We help Rhode Island nonprofits, schools, businesses, and government agencies leverage AI to work smarter—through consulting, automation workflows, and hands-on training.",
+    primaryCTA: "Book a Consultation",
     secondaryCTA: "See Our Work",
-    trustLine: "Trusted by companies scaling from $5M to $500M+"
+    trustLine: "Trusted by Rhode Island organizations ready to embrace AI"
   },
 
   pillars: [
     {
       icon: "globe",
-      title: "Conversion Websites",
-      description: "Fast, focused sites engineered to turn visitors into customers. Built on modern tech, optimized for performance."
+      title: "AI Strategy & Assessment",
+      description: "We evaluate your organization's AI readiness, identify high-impact opportunities, and build a clear roadmap for adoption."
     },
     {
       icon: "trending-up",
-      title: "Growth Systems",
-      description: "Scalable funnels, landing pages, and lead capture systems that compound your acquisition efforts."
+      title: "Automation Workflows",
+      description: "Implement AI-powered automations using ChatGPT, Claude, and other modern tools to streamline operations and save time."
     },
     {
       icon: "zap",
-      title: "Automation Layer",
-      description: "CRM workflows, follow-up sequences, and integrations that scale operations without scaling headcount."
+      title: "Training & Workshops",
+      description: "Hands-on AI training for teams at nonprofits, schools, businesses, and government agencies—from beginner to advanced."
     }
   ],
 
@@ -30,61 +30,61 @@ export const homeContent = {
     steps: [
       {
         number: "01",
-        title: "Diagnose",
-        description: "We analyze your current funnel, identify conversion leaks, and map opportunities for measurable lift."
+        title: "Assess",
+        description: "We audit your current workflows, identify AI opportunities, and evaluate your team's readiness for adoption."
       },
       {
         number: "02",
-        title: "Design",
-        description: "Strategy-first approach: positioning, messaging, and user flows built around your conversion goals."
+        title: "Strategize",
+        description: "We build a custom AI roadmap aligned to your organization's goals, budget, and capacity."
       },
       {
         number: "03",
-        title: "Build",
-        description: "Fast, focused execution with modern tech. We ship production-ready code, not prototypes."
+        title: "Implement",
+        description: "We deploy AI-powered workflows, train your team on modern tools, and integrate automation into daily operations."
       },
       {
         number: "04",
-        title: "Optimize",
-        description: "Launch is the beginning. We track, test, and iterate based on real user behavior and conversion data."
+        title: "Support",
+        description: "We provide ongoing support, measure results, and iterate to maximize impact over time."
       }
     ]
   },
 
   stats: [
     {
-      value: "3.2x",
-      label: "Avg conversion lift"
+      value: "300+",
+      label: "Rhode Islanders consulted"
     },
     {
-      value: "< 1s",
-      label: "Avg page load time"
+      value: "80%",
+      label: "Want AI training"
     },
     {
-      value: "47",
-      label: "Projects shipped"
+      value: "40%",
+      label: "Improvement after engagement"
     },
     {
-      value: "98%",
-      label: "Client retention"
+      value: "100%",
+      label: "Rhode Island based"
     }
   ],
 
   signalVsNoise: {
-    title: "Signal vs Noise",
+    title: "What Sets Us Apart",
     signal: [
-      "Conversion-focused engineering",
-      "Data-driven decisions",
-      "Outcomes over output",
-      "Fast iteration cycles",
-      "Transparent reporting"
+      "Practical, hands-on AI implementation",
+      "Tailored to nonprofits, schools & small orgs",
+      "Real tools: ChatGPT, Claude, automation apps",
+      "Measurable outcomes and ongoing support",
+      "Built by Rhode Islanders, for Rhode Island"
     ],
     noise: [
-      "Award-winning creative",
-      "Subjective design opinions",
-      "Billable hours as success metric",
-      "Endless revision rounds",
-      "Vanity metrics dashboards"
+      "Generic AI hype and buzzwords",
+      "One-size-fits-all solutions",
+      "Theory without implementation",
+      "Expensive platforms you won't use",
+      "Out-of-state consultants who don't understand RI"
     ]
   }
 };

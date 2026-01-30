@@ -14,134 +14,134 @@ export interface Service {
 
 export const services: Service[] = [
   {
-    id: "conversion-websites",
-    title: "Conversion Websites",
-    description: "High-performance websites engineered for measurable outcomes, not just aesthetics.",
+    id: "ai-strategy",
+    title: "AI Strategy & Assessment",
+    description: "Evaluate your organization's AI readiness and build a clear roadmap for adoption that aligns with your goals.",
     outcomes: [
-      "Measurable lift in conversion rates",
-      "Faster page loads and better Core Web Vitals",
-      "Clear tracking and attribution",
-      "Scalable technical foundation"
+      "Clear understanding of AI opportunities in your operations",
+      "Prioritized list of high-impact AI use cases",
+      "Custom AI adoption roadmap with timeline",
+      "Team readiness assessment and gap analysis"
     ],
     deliverables: [
-      "Conversion-focused strategy and wireframes",
-      "Custom UI/UX design system",
-      "Production-ready codebase (Next.js/React)",
-      "Performance optimization",
-      "Analytics and tracking setup",
-      "CMS integration (if needed)"
+      "Organizational AI readiness audit",
+      "Workflow analysis and opportunity mapping",
+      "Custom AI adoption roadmap",
+      "ROI projections for recommended initiatives",
+      "Executive summary and presentation",
+      "Implementation priority matrix"
     ],
-    timeline: "4-8 weeks",
+    timeline: "2-4 weeks",
     bestFor: [
-      "B2B companies that need to generate qualified leads",
-      "SaaS products with complex value propositions",
-      "E-commerce brands focused on growth",
-      "Agencies that need to showcase results"
+      "Organizations exploring AI for the first time",
+      "Nonprofits looking to do more with less",
+      "Schools planning AI integration into operations or curriculum",
+      "Government agencies modernizing services"
     ],
     subServices: [
       {
-        name: "Conversion Strategy",
-        description: "Research-backed positioning, messaging, and funnel architecture"
+        name: "AI Readiness Audit",
+        description: "Comprehensive assessment of your current workflows, tools, and team capabilities"
       },
       {
-        name: "Copywriting",
-        description: "Outcome-driven copy that speaks to intent and removes friction"
+        name: "Opportunity Mapping",
+        description: "Identify the highest-impact areas where AI can save time and improve outcomes"
       },
       {
-        name: "UI/UX Design",
-        description: "Interface design that guides users toward action"
+        name: "Roadmap Development",
+        description: "Phased implementation plan tailored to your budget and capacity"
       },
       {
-        name: "Performance Engineering",
-        description: "Sub-second load times, optimized for Core Web Vitals"
+        name: "Stakeholder Alignment",
+        description: "Presentations and workshops to get leadership and staff on the same page"
       }
     ]
   },
   {
-    id: "growth-systems",
-    title: "Growth Systems",
-    description: "Scalable acquisition and conversion infrastructure that compounds over time.",
+    id: "automation-workflows",
+    title: "Automation Workflows",
+    description: "Design and implement AI-powered automations that streamline your operations and free up your team for higher-value work.",
     outcomes: [
-      "Predictable lead generation",
-      "Higher conversion at each funnel stage",
-      "Reduced customer acquisition cost",
-      "Automated lead qualification"
+      "Reduced manual work and repetitive tasks",
+      "Faster response times and processing",
+      "Better data flow between systems",
+      "More capacity without more headcount"
     ],
     deliverables: [
-      "Landing page suite (multiple variants)",
-      "Lead capture and qualification system",
-      "Email/SMS nurture sequences",
-      "A/B testing infrastructure",
-      "Analytics dashboards and reporting",
-      "Integration with your CRM/tools"
+      "Custom AI workflow design and implementation",
+      "Tool setup and configuration (ChatGPT, Claude, etc.)",
+      "System integrations and API connections",
+      "Automated reporting and notifications",
+      "Documentation and standard operating procedures",
+      "Team training on new workflows"
     ],
     timeline: "3-6 weeks",
     bestFor: [
-      "Companies running paid acquisition campaigns",
-      "Sales teams that need qualified pipeline",
-      "Businesses with high-intent traffic but low conversion",
-      "Brands scaling across multiple channels"
+      "Teams spending hours on repetitive administrative tasks",
+      "Organizations with disconnected tools and manual data entry",
+      "Nonprofits that need to stretch limited staff resources",
+      "Schools automating communications, grading support, or reporting"
     ],
     subServices: [
       {
-        name: "Funnel Architecture",
-        description: "Multi-step conversion paths optimized for each traffic source"
+        name: "Workflow Design",
+        description: "Map your current processes and design AI-enhanced alternatives"
       },
       {
-        name: "Landing Page Development",
-        description: "High-converting pages designed for specific campaigns"
+        name: "Tool Implementation",
+        description: "Set up and configure ChatGPT, Claude, Zapier, Make, and other AI tools"
       },
       {
-        name: "Lead Capture Systems",
-        description: "Forms, quizzes, and interactive elements that qualify intent"
+        name: "System Integration",
+        description: "Connect your existing tools so data flows automatically"
       },
       {
-        name: "Analytics & Attribution",
-        description: "Track what works, kill what doesn't, double down on winners"
+        name: "AI Assistants",
+        description: "Custom chatbots, document processors, and smart automation agents"
       }
     ]
   },
   {
-    id: "automation-layer",
-    title: "Automation Layer",
-    description: "Intelligent systems that scale your operations without scaling headcount.",
+    id: "training-workshops",
+    title: "Training & Workshops",
+    description: "Hands-on AI training that meets your team where they are—from complete beginners to power users ready to build advanced workflows.",
     outcomes: [
-      "Reduced manual work and human error",
-      "Faster response times",
-      "Better data flow between systems",
-      "More capacity without more people"
+      "Team confidence and competency with AI tools",
+      "Practical skills they can use immediately",
+      "Reduced fear and resistance to AI adoption",
+      "Internal AI champions who can train others"
     ],
     deliverables: [
-      "CRM integration and automation setup",
-      "Automated follow-up sequences",
-      "System integrations (API connections)",
-      "AI-powered chatbots and assistants",
-      "Workflow automation (Zapier, Make, custom)",
-      "Documentation and team training"
+      "Custom training curriculum for your organization",
+      "Live, hands-on workshop sessions",
+      "Training materials and reference guides",
+      "Practice exercises with real-world scenarios",
+      "Post-training support and Q&A sessions",
+      "Progress tracking and competency assessment"
     ],
-    timeline: "2-5 weeks",
+    timeline: "1-4 weeks",
     bestFor: [
-      "Teams spending hours on repetitive tasks",
-      "Companies with disconnected tools and data",
-      "Sales orgs that struggle with follow-up",
-      "Businesses ready to scale operations"
+      "Organizations where staff are curious but unsure about AI",
+      "Schools training teachers to use AI responsibly",
+      "Nonprofits wanting to upskill their teams",
+      "Businesses building internal AI capabilities"
     ],
     subServices: [
       {
-        name: "CRM Automation",
-        description: "Automated lead routing, scoring, and nurture workflows"
+        name: "AI Foundations",
+        description: "Beginner-friendly introduction to AI tools like ChatGPT and Claude"
       },
       {
-        name: "Follow-up Systems",
-        description: "Triggered emails, SMS, and notifications based on behavior"
+        name: "Prompt Engineering",
+        description: "Learn to write effective prompts that get consistent, useful results"
       },
       {
-        name: "System Integrations",
-        description: "Connect your tools so data flows automatically"
+        name: "Workflow Automation Training",
+        description: "Hands-on training with Zapier, Make, and other automation platforms"
       },
       {
-        name: "AI Assistance",
-        description: "Chatbots, lead qualification, and smart routing"
+        name: "AI for Educators",
+        description: "Responsible AI use in classroom settings, curriculum design, and student support"
       }
     ]
   }
@@ -159,48 +159,48 @@ export interface EngagementModel {
 
 export const engagementModels: EngagementModel[] = [
   {
-    id: "sprint",
-    name: "Sprint",
-    duration: "2 weeks",
-    description: "Focused execution on a single, well-defined objective. Perfect for quick wins and tactical improvements.",
-    bestFor: "Landing page builds, conversion audits, quick automation setups",
+    id: "assessment",
+    name: "Assessment",
+    duration: "1-2 weeks",
+    description: "A focused AI readiness evaluation with actionable recommendations. The perfect starting point for any organization.",
+    bestFor: "Organizations exploring AI, leadership alignment, quick wins identification",
     includes: [
-      "Defined scope and deliverables",
-      "Daily progress updates",
-      "Direct Slack access",
-      "One round of revisions included"
+      "AI readiness audit",
+      "Opportunity assessment",
+      "Executive summary with recommendations",
+      "30-minute follow-up call"
     ],
-    startingAt: "$8,500"
+    startingAt: "Contact us"
   },
   {
-    id: "build",
-    name: "Build",
-    duration: "4-6 weeks",
-    description: "Comprehensive project with strategy, design, development, and launch. End-to-end execution.",
-    bestFor: "Full website builds, multi-page funnels, integrated automation systems",
+    id: "engagement",
+    name: "Full Engagement",
+    duration: "4-8 weeks",
+    description: "Comprehensive consulting with strategy, implementation, and training. End-to-end AI transformation support.",
+    bestFor: "AI roadmap development, workflow automation, team training programs",
     includes: [
       "Discovery and strategy phase",
-      "Design + development + deployment",
-      "Two rounds of revisions",
-      "Post-launch support (2 weeks)",
-      "Training and documentation"
+      "Implementation and deployment",
+      "Team training sessions",
+      "Post-engagement support (2 weeks)",
+      "Documentation and guides"
     ],
-    startingAt: "$24,000"
+    startingAt: "Contact us"
   },
   {
-    id: "retainer",
-    name: "Retainer",
-    duration: "Ongoing (monthly)",
-    description: "Continuous optimization, experimentation, and growth support. Your extended digital team.",
-    bestFor: "Ongoing optimization, A/B testing, continuous improvement, growth support",
+    id: "ongoing",
+    name: "Ongoing Partnership",
+    duration: "Monthly",
+    description: "Continuous AI support, optimization, and training. Your dedicated AI consulting partner.",
+    bestFor: "Ongoing optimization, new workflow development, continuous team upskilling",
     includes: [
-      "Dedicated monthly capacity",
-      "Proactive recommendations",
-      "Monthly performance reviews",
+      "Dedicated monthly consulting hours",
+      "Proactive AI opportunity identification",
+      "Monthly progress reviews",
       "Priority support and response",
-      "Flexible scope within capacity"
+      "Flexible scope based on needs"
     ],
-    startingAt: "$12,000/mo"
+    startingAt: "Contact us"
   }
 ];
 

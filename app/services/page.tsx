@@ -9,8 +9,8 @@ import { Check, Clock, Target, Users } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Services - SIGNAL",
-  description: "Conversion websites, growth systems, and automation infrastructure for modern businesses.",
+  title: "Services - AI Ready Rhode Island",
+  description: "AI strategy, automation workflows, and training for Rhode Island organizations.",
 };
 
 export default function ServicesPage() {
@@ -19,10 +19,10 @@ export default function ServicesPage() {
       <Navbar />
 
       <Hero
-        headline="Services Built to Convert"
-        subheading="We don't do brochure sites or vanity metrics. We build conversion-focused systems that scale your business."
+        headline="AI Consulting Services"
+        subheading="End-to-end AI consulting to help your organization adopt, automate, and thrive with artificial intelligence."
         primaryCTA={{
-          text: "Book a Strategy Call",
+          text: "Book a Consultation",
           href: "/contact",
         }}
       />
@@ -191,10 +191,10 @@ export default function ServicesPage() {
       </section>
 
       <CTASection
-        headline="Let's Build Your System"
-        description="Book a 30-minute strategy call to discuss your goals and see if we're a fit."
+        headline="Ready to Get Started?"
+        description="Book a free consultation to discuss your organization's AI goals and how we can help."
         primaryCTA={{
-          text: "Book a Strategy Call",
+          text: "Book a Consultation",
           href: "/contact",
         }}
         secondaryCTA={{

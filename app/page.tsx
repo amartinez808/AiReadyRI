@@ -246,10 +246,10 @@ export default function Home() {
 
       {/* Final CTA Section */}
       <CTASection
-        headline="Ready to Build a System That Converts?"
-        description="Let's talk about your growth goals and how we can help you get there."
+        headline="Ready to Leverage AI for Your Organization?"
+        description="Let's talk about how AI can help your team work smarter and do more."
         primaryCTA={{
-          text: "Book a Strategy Call",
+          text: "Book a Consultation",
           href: "/contact",
         }}
         secondaryCTA={{

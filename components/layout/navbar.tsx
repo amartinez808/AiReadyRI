@@ -21,7 +21,7 @@ export function Navbar() {
       <div className="container mx-auto px-6">
         <div className="flex h-20 items-center justify-between">
           <Link href="/" className="text-2xl font-bold tracking-tight">
-            SIGNAL
+            AI Ready RI
           </Link>
 
           {/* Desktop Navigation */}
@@ -36,7 +36,7 @@ export function Navbar() {
               </Link>
             ))}
             <Button asChild size="sm">
-              <Link href="/contact">Book a Call</Link>
+              <Link href="/contact">Get a Consultation</Link>
             </Button>
           </div>
 
@@ -78,7 +78,7 @@ export function Navbar() {
                 ))}
                 <Button asChild className="mt-2 w-full">
                   <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>
-                    Book a Call
+                    Get a Consultation
                   </Link>
                 </Button>
               </div>

@@ -2,52 +2,50 @@ export function JsonLd() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "SIGNAL",
-    description: "Digital Systems That Convert - High-performance websites, growth systems, and automation for modern businesses.",
-    url: "https://signal.agency",
-    logo: "https://signal.agency/logo.png",
+    name: "AI Ready Rhode Island",
+    description: "AI consulting, automation workflows, and training for Rhode Island nonprofits, schools, businesses, and government.",
+    url: "https://aireadyri.com",
     sameAs: [
-      "https://twitter.com/signal",
-      "https://linkedin.com/company/signal",
-      "https://github.com/signal",
+      "https://twitter.com/aireadyri",
+      "https://linkedin.com/company/ai-ready-rhode-island",
     ],
     contactPoint: {
       "@type": "ContactPoint",
-      email: "hello@signal.agency",
+      email: "josh@aireadyri.com",
       contactType: "Customer Service",
       areaServed: "US",
     },
     address: {
       "@type": "PostalAddress",
       addressCountry: "US",
-      addressRegion: "Remote",
+      addressRegion: "Rhode Island",
     },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "SIGNAL Services",
+      name: "AI Ready Rhode Island Services",
       itemListElement: [
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Conversion Websites",
-            description: "High-performance websites engineered for measurable outcomes",
+            name: "AI Strategy & Assessment",
+            description: "Evaluate AI readiness and build adoption roadmaps for organizations",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Growth Systems",
-            description: "Scalable acquisition and conversion infrastructure",
+            name: "Automation Workflows",
+            description: "AI-powered workflow automation using modern tools",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Automation Layer",
-            description: "Intelligent systems that scale operations",
+            name: "Training & Workshops",
+            description: "Hands-on AI training for teams and organizations",
           },
         },
       ],

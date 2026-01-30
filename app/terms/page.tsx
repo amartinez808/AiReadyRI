@@ -3,8 +3,8 @@ import { Footer } from "@/components/layout/footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service - SIGNAL",
-  description: "Terms of service for SIGNAL agency.",
+  title: "Terms of Service - AI Ready Rhode Island",
+  description: "Terms of service for AI Ready Rhode Island agency.",
 };
 
 export default function TermsPage() {
@@ -31,14 +31,14 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-semibold text-foreground">2. Services</h2>
               <p>
-                SIGNAL provides digital marketing and web development services. Specific terms for each engagement will be outlined in separate service agreements.
+                AI Ready Rhode Island provides digital marketing and web development services. Specific terms for each engagement will be outlined in separate service agreements.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-foreground">3. Intellectual Property</h2>
               <p>
-                All content on this website, including text, graphics, logos, and software, is the property of SIGNAL or its content suppliers and is protected by intellectual property laws.
+                All content on this website, including text, graphics, logos, and software, is the property of AI Ready Rhode Island or its content suppliers and is protected by intellectual property laws.
               </p>
             </section>
 
@@ -58,7 +58,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-semibold text-foreground">5. Limitation of Liability</h2>
               <p>
-                SIGNAL shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use this website or services.
+                AI Ready Rhode Island shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use this website or services.
               </p>
             </section>
 
@@ -87,8 +87,8 @@ export default function TermsPage() {
               <h2 className="text-2xl font-semibold text-foreground">9. Contact</h2>
               <p>
                 If you have any questions about these Terms of Service, please contact us at{" "}
-                <a href="mailto:legal@signal.agency" className="text-primary hover:underline">
-                  legal@signal.agency
+                <a href="mailto:josh@aireadyri.com" className="text-primary hover:underline">
+                  josh@aireadyri.com
                 </a>
                 .
               </p>

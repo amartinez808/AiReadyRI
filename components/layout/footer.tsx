@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { Linkedin, Twitter, Github } from "lucide-react";
+import { Linkedin, Twitter } from "lucide-react";
 
 const footerLinks = {
   Services: [
-    { href: "/services#conversion-websites", label: "Conversion Websites" },
-    { href: "/services#growth-systems", label: "Growth Systems" },
-    { href: "/services#automation-layer", label: "Automation Layer" },
+    { href: "/services#ai-strategy", label: "AI Strategy & Assessment" },
+    { href: "/services#automation-workflows", label: "Automation Workflows" },
+    { href: "/services#training-workshops", label: "Training & Workshops" },
   ],
   Company: [
     { href: "/about", label: "About" },
@@ -19,9 +19,8 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { href: "https://twitter.com/signal", icon: Twitter, label: "Twitter" },
-  { href: "https://linkedin.com/company/signal", icon: Linkedin, label: "LinkedIn" },
-  { href: "https://github.com/signal", icon: Github, label: "GitHub" },
+  { href: "https://twitter.com/aireadyri", icon: Twitter, label: "Twitter" },
+  { href: "https://linkedin.com/company/ai-ready-rhode-island", icon: Linkedin, label: "LinkedIn" },
 ];
 
 export function Footer() {
@@ -32,10 +31,10 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="text-2xl font-bold tracking-tight">
-              SIGNAL
+              AI Ready RI
             </Link>
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
-              Digital systems that convert. High-performance websites, growth infrastructure, and automation for companies that need results.
+              AI consulting, automation, and training for Rhode Island nonprofits, schools, businesses, and government.
             </p>
             <div className="mt-6 flex gap-4">
               {socialLinks.map((social) => (
@@ -75,7 +74,7 @@ export function Footer() {
 
         <div className="mt-12 border-t border-white/8 pt-8">
           <p className="text-center text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} SIGNAL. All rights reserved.
+            &copy; {new Date().getFullYear()} AI Ready Rhode Island. All rights reserved.
           </p>
         </div>
       </div>

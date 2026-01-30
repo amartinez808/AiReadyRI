@@ -7,8 +7,8 @@ import { caseStudies } from "@/content/caseStudies";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Work - SIGNAL",
-  description: "Case studies and results from our conversion-focused projects.",
+  title: "Work - AI Ready Rhode Island",
+  description: "Case studies and results from our AI consulting and automation engagements across Rhode Island.",
 };
 
 export default function WorkPage() {
@@ -17,10 +17,10 @@ export default function WorkPage() {
       <Navbar />
 
       <Hero
-        headline="Work That Moves the Needle"
-        subheading="Real projects. Real metrics. Real business impact."
+        headline="Our Work in Action"
+        subheading="Real engagements. Real results. See how we've helped Rhode Island organizations leverage AI."
         primaryCTA={{
-          text: "Book a Strategy Call",
+          text: "Book a Consultation",
           href: "/contact",
         }}
       />
@@ -39,9 +39,9 @@ export default function WorkPage() {
 
       <CTASection
         headline="Want Results Like These?"
-        description="Let's discuss how we can help you achieve similar growth."
+        description="Let's discuss how AI consulting and automation can help your organization."
         primaryCTA={{
-          text: "Book a Strategy Call",
+          text: "Book a Consultation",
           href: "/contact",
         }}
         secondaryCTA={{

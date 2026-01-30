@@ -263,10 +263,10 @@ export default function ContactPage() {
                     <div>
                       <div className="font-medium text-foreground">Email</div>
                       <a
-                        href="mailto:hello@signal.agency"
+                        href="mailto:josh@aireadyri.com"
                         className="text-sm text-muted-foreground hover:text-foreground"
                       >
-                        hello@signal.agency
+                        josh@aireadyri.com
                       </a>
                     </div>
                   </div>
@@ -278,7 +278,7 @@ export default function ContactPage() {
                         Book Directly
                       </div>
                       <a
-                        href="https://calendly.com/signal"
+                        href="https://calendly.com/aireadyri"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-sm text-muted-foreground hover:text-foreground"

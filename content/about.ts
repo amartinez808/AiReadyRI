@@ -1,52 +1,52 @@
 export const aboutContent = {
   hero: {
-    headline: "We build digital systems that convert.",
-    subheading: "No fluff. No vanity metrics. Just conversion-focused engineering for companies that need to scale."
+    headline: "Your AI consulting partner in Rhode Island.",
+    subheading: "We help organizations harness the power of AI—from strategy and assessment to hands-on automation and training."
   },
 
   story: {
-    title: "Signal vs Noise",
+    title: "Why AI Ready Rhode Island",
     paragraphs: [
-      "Most agencies optimize for the wrong things: awards, aesthetics, billable hours. We optimize for one thing: outcomes.",
-      "SIGNAL was founded by engineers and growth operators who were tired of seeing companies waste money on pretty websites that don't convert, campaigns that don't scale, and processes that don't compound.",
-      "We're a small, senior team. No account managers, no junior designers learning on your dime. Just experienced builders who've scaled acquisition systems for 7, 8, and 9-figure companies.",
-      "We don't take every project that comes through. We take projects where we're confident we can move the metrics that matter to your business."
+      "AI is transforming how we work, but too many organizations feel left behind. We founded AI Ready Rhode Island to bridge that gap—to help nonprofits, schools, and businesses turn uncertainty into action.",
+      "We surveyed over 300 Rhode Islanders and found that 80% want to learn AI tools, but most don't know where to start. 48% fear AI will replace their jobs. 83% say AI is moving too fast.",
+      "We're a team of AI practitioners who've been in the trenches implementing real workflows with real tools. No theory, no hype—just practical guidance that gets results.",
+      "We provide the strategy, training, and hands-on support to make AI work for your organization, not against it. Built by Rhode Islanders, for Rhode Island."
     ]
   },
 
   principles: [
     {
-      title: "Outcomes over output",
-      description: "We measure success by conversion lift, pipeline growth, and revenue impact—not deliverables or hours logged."
+      title: "Practical over theoretical",
+      description: "We focus on real tools and real workflows—ChatGPT, Claude, automation apps—not abstract AI concepts that don't translate to daily work."
     },
     {
-      title: "Systems over tactics",
-      description: "We build compounding systems that improve over time, not one-off campaigns that plateau."
+      title: "Tailored to your organization",
+      description: "Every nonprofit, school, and business is different. We build custom AI roadmaps based on your specific needs, capacity, and goals."
     },
     {
-      title: "Speed over process",
-      description: "We ship fast because we eliminate approval theater, endless revisions, and bureaucratic waste."
+      title: "Accessible to everyone",
+      description: "You don't need a tech background to benefit from AI. Our training meets people where they are, from complete beginners to power users."
     },
     {
-      title: "Data over opinions",
-      description: "Every decision is backed by conversion research, user behavior, and performance data."
+      title: "Measurable outcomes",
+      description: "We track results and iterate. Clients see 40%+ improvement in AI competency after our engagements—and real time savings in their operations."
     }
   ],
 
   team: {
-    title: "Small team. Senior talent. Zero bullshit.",
-    description: "We're a distributed team of conversion-focused engineers, designers, and growth operators. Everyone on our team has scaled digital systems for high-growth companies. No junior staff, no outsourcing, no overhead."
+    title: "Founded by Joshua Robinson",
+    description: "AI Ready Rhode Island was founded by Joshua Robinson, a Rhode Island native passionate about making AI accessible to everyone. Our team combines deep AI expertise with a commitment to our local community. We work directly with organizations across the state to deliver hands-on consulting, training, and automation support."
   },
 
   clients: {
-    title: "Trusted by companies that grow fast",
+    title: "Serving Rhode Island organizations",
     logos: [
-      "Horizon Financial",
-      "Datawise",
-      "Apex Outdoor",
-      "Summit Health",
-      "Velocity Labs",
-      "Nexus AI"
+      "Nonprofits",
+      "K-12 Schools",
+      "Small Businesses",
+      "Government Agencies",
+      "Higher Education",
+      "Community Organizations"
     ]
   }
 };

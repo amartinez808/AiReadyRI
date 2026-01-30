@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { caseStudies } from '@/content/caseStudies';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://signal.agency';
+  const baseUrl = 'https://aireadyri.com';
 
   // Static routes
   const routes = [
