@@ -21,6 +21,17 @@ export function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/8 bg-background/80 backdrop-blur-lg">
       <div className="container mx-auto px-6">
         <div className="flex h-20 items-center justify-between">
+          <Link href="/" className="flex items-center gap-2">
+            <Image
+              src="/images/logo-white.png"
+              alt="AI Ready RI Logo"
+              width={300}
+              height={100}
+              className="h-20 w-auto"
+              priority
+            />
+          </Link>
+
           {/* Desktop Navigation */}
           <div className="hidden items-center gap-8 md:flex">
             {navLinks.map((link) => (
@@ -36,17 +47,6 @@ export function Navbar() {
               <Link href="/contact">Get a Consultation</Link>
             </Button>
           </div>
-
-          <Link href="/" className="flex items-center gap-2">
-            <Image
-              src="/images/logo-white.png"
-              alt="AI Ready RI Logo"
-              width={300}
-              height={100}
-              className="h-20 w-auto"
-              priority
-            />
-          </Link>
 
           {/* Mobile Menu Toggle */}
           <button
