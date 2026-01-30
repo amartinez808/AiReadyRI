@@ -25,9 +25,9 @@ export function Navbar() {
             <Image
               src="/images/IMG_3245.png"
               alt="AI Ready RI Logo"
-              width={200}
-              height={60}
-              className="h-12 w-auto"
+              width={250}
+              height={80}
+              className="h-16 w-auto"
               priority
             />
           </Link>
