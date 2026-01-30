@@ -8,6 +8,7 @@ import { CaseStudyCard } from "@/components/sections/case-study-card";
 import { TestimonialCard } from "@/components/sections/testimonial-card";
 import { CTASection } from "@/components/sections/cta-section";
 import { Stats } from "@/components/sections/stats";
+import { AnimatedGrid } from "@/components/background/animated-grid";
 import { homeContent } from "@/content/home";
 import { getFeaturedCaseStudies } from "@/content/caseStudies";
 import { testimonials } from "@/content/testimonials";
@@ -32,6 +33,7 @@ export default function Home() {
 
   return (
     <>
+      <AnimatedGrid />
       <Navbar />
 
       {/* Hero Section */}
