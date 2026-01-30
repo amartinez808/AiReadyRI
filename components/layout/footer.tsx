@@ -33,7 +33,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="inline-block">
               <Image
-                src="/images/IMG_3245.png"
+                src="/images/logo-white.png"
                 alt="AI Ready RI Logo"
                 width={120}
                 height={32}
