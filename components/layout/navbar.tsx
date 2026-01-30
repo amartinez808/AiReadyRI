@@ -20,14 +20,14 @@ export function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/8 bg-background/80 backdrop-blur-lg">
       <div className="container mx-auto px-6">
-        <div className="flex h-20 items-center justify-between">
+        <div className="flex h-24 items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <Image
               src="/images/logo-white.png"
               alt="AI Ready RI Logo"
-              width={300}
-              height={100}
-              className="h-20 w-auto"
+              width={360}
+              height={120}
+              className="h-24 w-auto"
               priority
             />
           </Link>
