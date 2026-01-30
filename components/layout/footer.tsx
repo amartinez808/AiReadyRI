@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Linkedin, Twitter } from "lucide-react";
 
 const footerLinks = {
@@ -30,8 +31,14 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <Link href="/" className="text-2xl font-bold tracking-tight">
-              AI Ready RI
+            <Link href="/" className="inline-block">
+              <Image
+                src="/images/IMG_3245.png"
+                alt="AI Ready RI Logo"
+                width={120}
+                height={32}
+                className="h-8 w-auto"
+              />
             </Link>
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
               AI consulting, automation, and training for Rhode Island nonprofits, schools, businesses, and government.

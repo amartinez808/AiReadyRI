@@ -1,16 +1,16 @@
 export const aboutContent = {
   hero: {
-    headline: "Your AI consulting partner in Rhode Island.",
-    subheading: "We help organizations harness the power of AI—from strategy and assessment to hands-on automation and training."
+    headline: "Building AI-Ready Rhode Islanders.",
+    subheading: "AI Ready Rhode Island (AI-ROS) is the state's first AI Readiness Operating System, built by Rhode Islanders for Rhode Islanders."
   },
 
   story: {
-    title: "Why AI Ready Rhode Island",
+    title: "The State's AI Readiness Engine",
     paragraphs: [
-      "AI is transforming how we work, but too many organizations feel left behind. We founded AI Ready Rhode Island to bridge that gap—to help nonprofits, schools, and businesses turn uncertainty into action.",
-      "We surveyed over 300 Rhode Islanders and found that 80% want to learn AI tools, but most don't know where to start. 48% fear AI will replace their jobs. 83% say AI is moving too fast.",
-      "We're a team of AI practitioners who've been in the trenches implementing real workflows with real tools. No theory, no hype—just practical guidance that gets results.",
-      "We provide the strategy, training, and hands-on support to make AI work for your organization, not against it. Built by Rhode Islanders, for Rhode Island."
+      "AI is transforming how we work, but too many Rhode Islanders feel left behind. AI-ROS was created to bridge that gap—to turn fear into confidence and skills into opportunities. We're on a mission to ensure our workforce is prepared for the AI-powered future.",
+      "Our platform provides accessible training, assessment, and job matching for everyone—from beginners to professionals. We focus on real tools: ChatGPT, Claude, and modern automation apps that move the needle.",
+      "Founded by Rhode Islanders, for Rhode Islanders, AI-ROS bridges the gap by turning concerns into skills and skills into jobs. Early pilots show participants improve their AI Readiness Score by 40%+ after just one learning path.",
+      "Whether you're an individual looking to upskill, an employer seeking AI-ready talent, or a partner interested in collaboration, we're here to lead the way in the AI era."
     ]
   },
 

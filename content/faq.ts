@@ -5,6 +5,14 @@ export interface FAQItem {
 
 export const faqs: FAQItem[] = [
   {
+    question: "What is AI-ROS?",
+    answer: "AI-ROS is Rhode Island's first AI Readiness Operating System. It's a comprehensive platform designed to assess your current AI skills, provide targeted micro-training, and match you with employers seeking AI-ready talent."
+  },
+  {
+    question: "How is AI Ready Rhode Island different from other platforms?",
+    answer: "We're Rhode Island-based and built specifically for our local workforce. We don't just sell software; we provide a personalized roadmap—Assess, Teach, Match—to ensure every Rhode Islander can lead in the AI era."
+  },
+  {
     question: "How is AI Ready Rhode Island different from other AI consultants?",
     answer: "We're Rhode Island-based and focused specifically on helping local nonprofits, schools, businesses, and government agencies. We don't sell software or push expensive platforms—we teach your team to use practical, accessible AI tools like ChatGPT and Claude, and we build automation workflows tailored to your specific operations."
   },

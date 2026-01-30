@@ -14,9 +14,9 @@ export interface Service {
 
 export const services: Service[] = [
   {
-    id: "ai-strategy",
-    title: "AI Strategy & Assessment",
-    description: "Evaluate your organization's AI readiness and build a clear roadmap for adoption that aligns with your goals.",
+    id: "ai-readiness-assessment",
+    title: "AI Readiness Assessment (Assess)",
+    description: "An 8-question assessment engine that audits your current AI skill level and evaluates your organization's readiness for adoption.",
     outcomes: [
       "Clear understanding of AI opportunities in your operations",
       "Prioritized list of high-impact AI use cases",
@@ -58,9 +58,9 @@ export const services: Service[] = [
     ]
   },
   {
-    id: "automation-workflows",
-    title: "Automation Workflows",
-    description: "Design and implement AI-powered automations that streamline your operations and free up your team for higher-value work.",
+    id: "training-pathways",
+    title: "Micro-Training Pathways (Teach)",
+    description: "Personalized learning paths that meet you where you are—from ChatGPT and Claude basics to advanced automation tools.",
     outcomes: [
       "Reduced manual work and repetitive tasks",
       "Faster response times and processing",
@@ -102,9 +102,9 @@ export const services: Service[] = [
     ]
   },
   {
-    id: "training-workshops",
-    title: "Training & Workshops",
-    description: "Hands-on AI training that meets your team where they are—from complete beginners to power users ready to build advanced workflows.",
+    id: "aire-match",
+    title: "AIRE-Match Engine (Match)",
+    description: "Connecting skilled workers directly with AI-ready Rhode Island employers through our proprietary matching engine.",
     outcomes: [
       "Team confidence and competency with AI tools",
       "Practical skills they can use immediately",

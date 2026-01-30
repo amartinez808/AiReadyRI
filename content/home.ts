@@ -1,27 +1,27 @@
 export const homeContent = {
   hero: {
-    headline: "AI Strategy. Automation. Training.",
-    subheading: "We help Rhode Island nonprofits, schools, businesses, and government agencies leverage AI to work smarter—through consulting, automation workflows, and hands-on training.",
-    primaryCTA: "Book a Consultation",
-    secondaryCTA: "See Our Work",
-    trustLine: "Trusted by Rhode Island organizations ready to embrace AI"
+    headline: "Get Ready. Get Skilled. Get Matched.",
+    subheading: "Rhode Island's first AI Readiness Operating System building AI-ready Rhode Islanders for tomorrow's workforce.",
+    primaryCTA: "Join Early Access",
+    secondaryCTA: "Learn More",
+    trustLine: "Built by Rhode Islanders, for Rhode Islanders"
   },
 
   pillars: [
     {
       icon: "globe",
-      title: "AI Strategy & Assessment",
-      description: "We evaluate your organization's AI readiness, identify high-impact opportunities, and build a clear roadmap for adoption."
+      title: "Assess AI Readiness",
+      description: "8-question assessment to understand your current AI skill level and identify your personalized learning path."
     },
     {
       icon: "trending-up",
-      title: "Automation Workflows",
-      description: "Implement AI-powered automations using ChatGPT, Claude, and other modern tools to streamline operations and save time."
+      title: "Micro-Training Pathways",
+      description: "Learn ChatGPT, Claude, and automation tools at your own pace with beginner-friendly skill paths."
     },
     {
       icon: "zap",
-      title: "Training & Workshops",
-      description: "Hands-on AI training for teams at nonprofits, schools, businesses, and government agencies—from beginner to advanced."
+      title: "AIRE-Match Engine",
+      description: "Employer-aligned job matching connecting skilled workers directly with AI-ready Rhode Island employers."
     }
   ],
 
@@ -53,20 +53,20 @@ export const homeContent = {
 
   stats: [
     {
-      value: "300+",
-      label: "Rhode Islanders consulted"
+      value: "48%",
+      label: "Fear AI job replacement"
     },
     {
-      value: "80%",
-      label: "Want AI training"
+      value: "80%+",
+      label: "Want to learn AI tools"
     },
     {
-      value: "40%",
-      label: "Improvement after engagement"
+      value: "40%+",
+      label: "Skill improvement"
     },
     {
-      value: "100%",
-      label: "Rhode Island based"
+      value: "AIRE",
+      label: "Match Engine"
     }
   ],
 

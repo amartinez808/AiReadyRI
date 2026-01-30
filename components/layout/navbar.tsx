@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -20,8 +21,15 @@ export function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/8 bg-background/80 backdrop-blur-lg">
       <div className="container mx-auto px-6">
         <div className="flex h-20 items-center justify-between">
-          <Link href="/" className="text-2xl font-bold tracking-tight">
-            AI Ready RI
+          <Link href="/" className="flex items-center gap-2">
+            <Image
+              src="/images/IMG_3245.png"
+              alt="AI Ready RI Logo"
+              width={200}
+              height={60}
+              className="h-12 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

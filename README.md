@@ -1,6 +1,6 @@
-# SIGNAL - Digital Systems That Convert
+# AI Ready Rhode Island
 
-A modern, high-performance marketing website built with Next.js 14, TypeScript, and Tailwind CSS.
+A modern, high-performance marketing website built with Next.js 16, TypeScript, and Tailwind CSS.
 
 ## 🚀 Features
 
@@ -16,7 +16,7 @@ A modern, high-performance marketing website built with Next.js 14, TypeScript, 
 ## 📁 Project Structure
 
 ```
-signal-agency/
+ai-ready-ri/
 ├── app/                          # Next.js App Router pages
 │   ├── page.tsx                 # Home page (8 sections)
 │   ├── services/page.tsx        # Services page
@@ -74,11 +74,13 @@ signal-agency/
 ## 📦 Installation
 
 1. **Install dependencies:**
+
    ```bash
    npm install
    ```
 
 2. **Run the development server:**
+
    ```bash
    npm run dev
    ```
@@ -98,12 +100,14 @@ The design system uses CSS variables defined in `app/globals.css`. The primary a
 ```
 
 **How to change the accent color:**
+
 1. Open `app/globals.css`
 2. Find the `:root` section
 3. Change the `--primary` and `--accent` values
 4. Use [oklch.com](https://oklch.com) to pick new colors
 
 The third value (230) is the hue. Try:
+
 - **Cyan/Blue:** 230
 - **Purple:** 280
 - **Green:** 160
@@ -157,7 +161,7 @@ All content is stored in the `/content` directory as TypeScript files. Edit thes
 }
 ```
 
-3. The case study will automatically appear on `/work` and be accessible at `/work/your-case-study-slug`
+1. The case study will automatically appear on `/work` and be accessible at `/work/your-case-study-slug`
 
 ## 🚢 Deployment
 
@@ -223,6 +227,7 @@ import { Analytics } from '@vercel/analytics/react';
 3. The metadata in `app/layout.tsx` will automatically use it
 
 Or use Next.js dynamic OG image generation:
+
 - Create `app/og/route.tsx`
 - Follow the [Next.js OG Image Guide](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/opengraph-image)
 
@@ -242,6 +247,7 @@ This template is provided as-is for your use. Modify and deploy as needed.
 ## 🤝 Support
 
 For questions or issues:
+
 - Check the [Next.js documentation](https://nextjs.org/docs)
 - Check the [shadcn/ui documentation](https://ui.shadcn.com)
 - Review the code comments in this project
